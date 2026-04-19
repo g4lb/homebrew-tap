@@ -1,10 +1,10 @@
 class ClaudeApprover < Formula
   desc "Flip multiple Claude Code sessions into auto-accept or bypass mode at once"
   homepage "https://github.com/g4lb/claude-approver"
-  url "https://github.com/g4lb/claude-approver/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "76390802d6176ebd2f339372e826047a5575a27826ff5f39e5abd714415ec03e"
+  url "https://github.com/g4lb/claude-approver/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "069984ba9e9e2da16a6d0f7d7bf7ba2f5dedf353e0135fa9e69e20b1b3bcd62b"
   license "MIT"
-  version "0.1.0"
+  version "0.1.1"
 
   def install
     bin.install "claude-accept-all.sh" => "claude-accept-all"
