@@ -3,27 +3,27 @@
 class Grove < Formula
   desc "Orchestrates AI-driven development in isolated environments"
   homepage "https://github.com/g4lb/grove"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
       url "https://github.com/g4lb/grove/releases/download/v#{version}/grove-darwin-arm64"
-      sha256 "72e74d29b26b9d3902098a8115a458ee97cb48de875b62f89499289b918e8b2b"
+      sha256 "02a550dd992771ed80405711d30863ff776e9bb92b8f7b09eee14082dc1952a7"
     end
     on_intel do
       url "https://github.com/g4lb/grove/releases/download/v#{version}/grove-darwin-x64"
-      sha256 "4a2933de9f44a08e7166e1a4e7f42e90a3d872c8460916262bfc6dc3ebe353ff"
+      sha256 "8a61ebd7c7ceb920ebc3a72b7130b6d08483aa955176a67d3ad4887640e42595"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/g4lb/grove/releases/download/v#{version}/grove-linux-arm64"
-      sha256 "04cd811ab8ad1333583c4e9a933839d8959fae941b178cc043a498a4a637db63"
+      sha256 "6c1b6f7735a4b9cf96e089451f6243af2dd9d70fab3ee351ece116c92d67ee17"
     end
     on_intel do
       url "https://github.com/g4lb/grove/releases/download/v#{version}/grove-linux-x64"
-      sha256 "8849a3eeaf23f1fb40f504597f37cf4268c0718316c2df74d5c7d69bc58a9981"
+      sha256 "72fb4b01575f69177c7edb644198b6ac7d49db40cfea945089eee6c70295954c"
     end
   end
 
